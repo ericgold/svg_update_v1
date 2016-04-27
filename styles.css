@@ -51,8 +51,9 @@ header {
     height: 24px;
   }
 
-  .nav-icon:hover {
-     fill: #39add1;
+  .st0:hover {
+    /* or #111?? */
+     fill: #39add1; 
   }
 
 .logo {
@@ -97,11 +98,12 @@ footer {
   .logo-text {
     display: none;
   }
-  .logo::after {
+  h1::before {
       content: "PAW PRINT KENNELS";
       display: block;
-      color: black;
+      color: #ba8058;
       font-size: 1em;
-    }
+      margin-bottom: .5em;
   }
+
 }

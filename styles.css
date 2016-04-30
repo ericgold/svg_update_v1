@@ -61,6 +61,11 @@ header {
   height: 120px;
 }
 
+h1.mobile-headline {
+  display: none;
+}
+
+
 main {
   padding-top: 50px;
 }
@@ -98,12 +103,11 @@ footer {
   .logo-text {
     display: none;
   }
-  h1::before {
-      content: "PAW PRINT KENNELS";
-      display: block;
-      color: #ba8058;
-      font-size: 1em;
-      margin-bottom: .5em;
+
+  h1.mobile-headline {
+    display: block;
+    color: #ba8058;
+    margin-bottom: .5em;
   }
 
 }

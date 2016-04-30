@@ -87,7 +87,7 @@ main {
       color: #ba8058;
       margin-right: 20px;
     }
-      main li img {
+      main li .corgi {
         width: 170px;
         height: 170px;
         margin-bottom: 15px;
@@ -98,6 +98,28 @@ main {
       main li:last-child {
         margin-right: 0;
       }
+
+      .red .st0 {
+        fill: #BA8058;
+      }
+      .red .st1{fill:#FBFEFF;}
+      .red .st2{fill:#2D3339;}
+      .red .st3{fill:#EAAA7F;}
+
+      .fawn .st0{fill:#EAAA7F;}
+  .fawn .st1{fill:#FBFEFF;}
+  .fawn .st2{fill:#2D3339;}
+  .fawn .st3{fill:#F4C6A6;}
+
+  .sable .st0{fill:#844B24;}
+  .sable .st1{fill:#FBFEFF;}
+  .sable .st2{fill:#2D3339;}
+  .sable .st3{fill:#BA8058;}
+
+  .black-and-tan .st0{fill:#BA8058;}
+  .black-and-tan .st1{fill:#52595F;}
+  .black-and-tan .st2{fill:#FBFEFF;}
+  .black-and-tan .st3{fill:#2D3339;}
 
 footer {
   width: 100%;

@@ -27,6 +27,7 @@ a {
   color: #39add1;
   font-weight: 700;
   transition: 2s;
+
   }
   a:hover {
     color: #111;
@@ -34,13 +35,13 @@ a {
 
   a .st0 {
     transition: 2s;
-    
+    transform-origin: top center;
   }
+
 
   a:hover .st0 {
      fill: #111; 
-     /*transform-orgin: 50% 50%;*/
-     transform: skewY(0.5turn);
+     transform: rotateY(0.5turn);
   }
 
 

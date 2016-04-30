@@ -51,8 +51,14 @@ header {
     line-height: 1em;
   }
 
-  .nav-icon {
+  #nav-heart,
+  #nav-contact {
     width: 28px;
+    height: 24px;
+  }
+
+  #nav-location {
+    width: 24px;
     height: 24px;
   }
 

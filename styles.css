@@ -108,6 +108,49 @@ main {
         margin-right: 0;
       }
 
+      @-webkit-keyframes corgi-jump {
+        50% {-webkit-transform: translateY(-5px)}
+      }
+
+      .red {
+        -webkit-animation: corgi-jump 3s 1s ease-in-out 3;
+      }
+
+       .fawn {
+        -webkit-animation: corgi-jump 5s 1s ease-in-out 2;
+      }
+
+       .sable {
+        -webkit-animation: corgi-jump 4s 1s ease-in-out 3;
+      }
+
+       .black-and-tan {
+        -webkit-animation: corgi-jump 6s 1s ease-in-out 2;
+      }
+      
+
+      @-webkit-keyframes corgi-eyebrow {
+        50% {-webkit-transform: translate(3px, -3px)}
+      }
+
+      .red .st3 {
+        -webkit-animation: corgi-eyebrow 4s 0.5s ease-in-out;
+      }
+
+       .fawn .st3 {
+        -webkit-animation: corgi-eyebrow 7s 0.5s ease-in-out 2;
+      }
+
+       .sable .st3 {
+        -webkit-animation: corgi-eyebrow 6s 0.5s ease-in-out 2;
+      }
+
+       .black-and-tan .st3 {
+        -webkit-animation: corgi-eyebrow 5s 0.5s ease-in-out;
+      }
+
+
+
       .red .st0,
       .sable .st3,
       .black-and-tan .st0 {

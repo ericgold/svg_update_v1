@@ -63,7 +63,7 @@ header {
   #nav-heart,
   #nav-contact {
     width: 28px;
-    height: 24px;
+    height: 26px;
   }
 
   #nav-location {
@@ -72,7 +72,7 @@ header {
   }
 
 
-.logo {
+#logo {
   width: 140px;
   height: 120px;
 }
@@ -108,48 +108,82 @@ main {
         margin-right: 0;
       }
 
+/* Corgi SVG animation styles */
+
       @-webkit-keyframes corgi-jump {
-        50% {-webkit-transform: translateY(-5px)}
+        50% {-webkit-transform: translateY(-3px);}
+      }
+
+      @-moz-keyframes corgi-jump {
+        50% {-moz-transform: translateY(-3px);}
+      }
+
+      @keyframes corgi-jump {
+        50% {transform: translateY(-3px);}
       }
 
       .red {
         -webkit-animation: corgi-jump 3s 1s ease-in-out 3;
+        -moz-animation: corgi-jump 3s 1s ease-in-out 3;
+        animation: corgi-jump 3s 1s ease-in-out 3;
       }
 
        .fawn {
         -webkit-animation: corgi-jump 5s 1s ease-in-out 2;
+        -moz-animation: corgi-jump 5s 1s ease-in-out 2;
+        animation: corgi-jump 5s 1s ease-in-out 2;
       }
 
        .sable {
         -webkit-animation: corgi-jump 4s 1s ease-in-out 3;
+        -moz-animation: corgi-jump 4s 1s ease-in-out 3;
+        animation: corgi-jump 4s 1s ease-in-out 3;
       }
 
        .black-and-tan {
         -webkit-animation: corgi-jump 6s 1s ease-in-out 2;
+        -moz-animation: corgi-jump 6s 1s ease-in-out 2;
+        animation: corgi-jump 6s 1s ease-in-out 2;
       }
       
 
       @-webkit-keyframes corgi-eyebrow {
-        50% {-webkit-transform: translate(3px, -3px)}
+        50% {-webkit-transform: translate(2px, -2px);}
+      }
+
+      @-moz-keyframes corgi-eyebrow {
+        50% {-moz-transform: translate(2px, -2px);}
+      }
+
+      @keyframes corgi-eyebrow {
+        50% {transform: translate(2px, -2px);}
       }
 
       .red .st3 {
         -webkit-animation: corgi-eyebrow 4s 0.5s ease-in-out;
+        -moz-animation: corgi-eyebrow 4s 0.5s ease-in-out;
+        animation: corgi-eyebrow 4s 0.5s ease-in-out;
       }
 
        .fawn .st3 {
         -webkit-animation: corgi-eyebrow 7s 0.5s ease-in-out 2;
+        -moz-animation: corgi-eyebrow 7s 0.5s ease-in-out 2;
+        animation: corgi-eyebrow 7s 0.5s ease-in-out 2;
       }
 
        .sable .st3 {
         -webkit-animation: corgi-eyebrow 6s 0.5s ease-in-out 2;
+        -moz-animation: corgi-eyebrow 6s 0.5s ease-in-out 2;
+        animation: corgi-eyebrow 6s 0.5s ease-in-out 2;
       }
 
        .black-and-tan .st3 {
         -webkit-animation: corgi-eyebrow 5s 0.5s ease-in-out;
+        -moz-animation: corgi-eyebrow 5s 0.5s ease-in-out;
+        animation: corgi-eyebrow 5s 0.5s ease-in-out;
       }
 
-
+/* Corgi SVG color fill styles */
 
       .red .st0,
       .sable .st3,
@@ -192,8 +226,10 @@ footer {
   color: #ba8058;
 }
 
+/* Media Query */
+
 @media (max-width: 419px) {
-  .logo-text {
+  #logo-text {
     display: none;
   }
 

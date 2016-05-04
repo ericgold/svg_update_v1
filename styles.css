@@ -71,11 +71,26 @@ header {
     height: 24px;
   }
 
+/* Logo Styles */
 
 #logo {
   width: 140px;
   height: 120px;
 }
+
+#logo .st0 {
+  fill: #BA8058;
+}
+
+#logo-text .st1 {
+  fill: #EAAA7F;
+}
+
+#logo-paw .st2 {
+  fill: #F4C6A6;
+}
+
+/* Substitute h1 for mobile screens */
 
 h1.mobile-headline {
   display: none;
@@ -123,27 +138,27 @@ main {
       }
 
       .red {
-        -webkit-animation: corgi-jump 3s 1s ease-in-out 3;
-        -moz-animation: corgi-jump 3s 1s ease-in-out 3;
-        animation: corgi-jump 3s 1s ease-in-out 3;
+        -webkit-animation: corgi-jump 3s 0.5s ease-in-out 3;
+        -moz-animation: corgi-jump 3s 0.5s ease-in-out 3;
+        animation: corgi-jump 3s 0.5s ease-in-out 3;
       }
 
        .fawn {
-        -webkit-animation: corgi-jump 5s 1s ease-in-out 2;
-        -moz-animation: corgi-jump 5s 1s ease-in-out 2;
-        animation: corgi-jump 5s 1s ease-in-out 2;
+        -webkit-animation: corgi-jump 5s 0.5s ease-in-out 2;
+        -moz-animation: corgi-jump 5s 0.5s ease-in-out 2;
+        animation: corgi-jump 5s 0.5s ease-in-out 2;
       }
 
        .sable {
-        -webkit-animation: corgi-jump 4s 1s ease-in-out 3;
-        -moz-animation: corgi-jump 4s 1s ease-in-out 3;
-        animation: corgi-jump 4s 1s ease-in-out 3;
+        -webkit-animation: corgi-jump 4s 0.5s ease-in-out 3;
+        -moz-animation: corgi-jump 4s 0.5s ease-in-out 3;
+        animation: corgi-jump 4s 0.5s ease-in-out 3;
       }
 
        .black-and-tan {
-        -webkit-animation: corgi-jump 6s 1s ease-in-out 2;
-        -moz-animation: corgi-jump 6s 1s ease-in-out 2;
-        animation: corgi-jump 6s 1s ease-in-out 2;
+        -webkit-animation: corgi-jump 6s 0.5s ease-in-out 2;
+        -moz-animation: corgi-jump 6s 0.5s ease-in-out 2;
+        animation: corgi-jump 6s 0.5s ease-in-out 2;
       }
       
 
@@ -236,7 +251,6 @@ footer {
   h1.mobile-headline {
     display: block;
     color: #ba8058;
-    margin-bottom: .5em;
   }
 
 }

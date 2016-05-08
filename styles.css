@@ -42,12 +42,6 @@ a {
     transform-origin: top center;
   }
 
-
-  /*a:hover .st0 {
-     fill: #111; 
-     transform: rotateY(0.5turn);
-  }*/
-
   a:hover #nav-heart .st0,
   a:hover #nav-location .st0,
   a:hover #nav-contact .st0 {

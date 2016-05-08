@@ -1,3 +1,5 @@
+/* Base Styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -29,6 +31,8 @@ a {
   transition: 2s;
 
   }
+/* Hover Styles for Navigation Links */
+
   a:hover {
     color: #111;
   }
@@ -39,11 +43,19 @@ a {
   }
 
 
-  a:hover .st0 {
+  /*a:hover .st0 {
+     fill: #111; 
+     transform: rotateY(0.5turn);
+  }*/
+
+  a:hover #nav-heart .st0,
+  a:hover #nav-location .st0,
+  a:hover #nav-contact .st0 {
      fill: #111; 
      transform: rotateY(0.5turn);
   }
 
+/* Header and Navigation Styles */
 
 header {
   padding-top: 10px;
@@ -62,13 +74,19 @@ header {
 
   #nav-heart,
   #nav-contact {
-    width: 28px;
-    height: 26px;
+    width: 14px;
+    height: 12px;
   }
 
   #nav-location {
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 12px;
+  }
+
+  #nav-heart .st0,
+  #nav-contact .st0,
+  #nav-location .st0 {
+    fill: #39ADD1;
   }
 
 /* Logo Styles */
@@ -96,6 +114,7 @@ h1.mobile-headline {
   display: none;
 }
 
+/* Main content styles (Corgis) */
 
 main {
   padding-top: 50px;
@@ -138,27 +157,27 @@ main {
       }
 
       .red {
-        -webkit-animation: corgi-jump 3s 0.5s ease-in-out 3;
-        -moz-animation: corgi-jump 3s 0.5s ease-in-out 3;
-        animation: corgi-jump 3s 0.5s ease-in-out 3;
+        -webkit-animation: corgi-jump 3s 1s ease-in-out 3;
+        -moz-animation: corgi-jump 3s 1s ease-in-out 3;
+        animation: corgi-jump 3s 1s ease-in-out 3;
       }
 
        .fawn {
-        -webkit-animation: corgi-jump 5s 0.5s ease-in-out 2;
-        -moz-animation: corgi-jump 5s 0.5s ease-in-out 2;
-        animation: corgi-jump 5s 0.5s ease-in-out 2;
+        -webkit-animation: corgi-jump 5s 1s ease-in-out 2;
+        -moz-animation: corgi-jump 5s 1s ease-in-out 2;
+        animation: corgi-jump 5s 1s ease-in-out 2;
       }
 
        .sable {
-        -webkit-animation: corgi-jump 4s 0.5s ease-in-out 3;
-        -moz-animation: corgi-jump 4s 0.5s ease-in-out 3;
-        animation: corgi-jump 4s 0.5s ease-in-out 3;
+        -webkit-animation: corgi-jump 4s 1s ease-in-out 3;
+        -moz-animation: corgi-jump 4s 1s ease-in-out 3;
+        animation: corgi-jump 4s 1s ease-in-out 3;
       }
 
        .black-and-tan {
-        -webkit-animation: corgi-jump 6s 0.5s ease-in-out 2;
-        -moz-animation: corgi-jump 6s 0.5s ease-in-out 2;
-        animation: corgi-jump 6s 0.5s ease-in-out 2;
+        -webkit-animation: corgi-jump 6s 1s ease-in-out 2;
+        -moz-animation: corgi-jump 6s 1s ease-in-out 2;
+        animation: corgi-jump 6s 1s ease-in-out 2;
       }
       
 
@@ -233,6 +252,8 @@ main {
       .black-and-tan .st1 {
         fill:#52595F;
       }
+
+/* Footer Styles */
 
 footer {
   width: 100%;
